@@ -179,6 +179,7 @@ p  {
     z-index:1000;
     -webkit-transition:all 0.3s ease-out;
     transition:all 0.3s ease-out;
+    box-shadow: 0px 3px 12px -09px rgb(29, 27, 27);
 }
 .navigation-wrap .nav-item{
     padding:0 0.625rem;
@@ -244,4 +245,48 @@ p  {
 .counter-section p,span{
     color:var(--white-color);
     text-transform: uppercase;
-)
+}
+
+/*
+=======================
+    ABOUT-SECTION-DESIGN
+=======================
+*/
+.about-section-1{
+    background: var(--white-color);
+}
+.about-section .card,
+.about-section-1 .card img{
+    border-radius: 0.625rem;
+}
+.about-section-1 .tect-sec{
+    padding: 2rem;
+}
+/*
+=======================
+    ABOUT-SECTION-DESIGN
+=======================
+*/
+
+.food-type{
+    padding-top: 3.25rem;
+}
+.food-type ul li{
+    font-size: 1rem;
+    color: var(--text-color);
+    line-height: 32px;
+    position: relative;
+    margin-left: 30px;
+}
+.food-type ul li::before{
+    position:absolute;
+    left: -2.1875rem;
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    font-family: "Font Awesome 5 Free";
+    content: '\f00c';
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
