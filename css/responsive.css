@@ -33,7 +33,9 @@
 }
 
 /* CAROUSEL DESIGN */
-
+.testimonial-section .carousel-item .carousel-caption p{
+    padding: 0;  
+}
 }
 @media(max-width:767px){
 
@@ -55,11 +57,16 @@ h2{
 
     /* STORY SECTION */
 
-
+    .story-section{
+        height: auto;
+        padding: 3rem 0;
+    }
 
     /* CAROUSEL DESIGN */
 
-
+    .testimonial-section .carousel-item{
+        padding: 11rem 3.125rem;  
+    }
 
     /* NEWSLETTER */
 
@@ -68,3 +75,10 @@ h2{
     /* FOOTER LINK */
 }
 
+@media (max-width:330px) {
+    
+    /* CAROUSEL DESIGN */
+    .testimonial-section .carousel-item{
+        padding: 13rem 3.125;  
+    }
+}
